@@ -1,0 +1,121 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "sanaw",
+    "dateExported": "2024-04-11T12:13:48.714Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "89e6158a-9f8b-4f83-8cb6-508786748618",
+            "colId": "28ffa0ed-8344-48da-a1b6-5b39af0f9a50",
+            "containerId": "",
+            "name": "localhost:3000/users",
+            "url": "localhost:3000/upload",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-09T14:53:56.196Z",
+            "modified": "2024-04-09T14:53:56.196Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "user_name",
+                    "value": "selbi",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "surname",
+                    "value": "bayryyev",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "surname",
+                        "value": "selbi"
+                    },
+                    {
+                        "name": "user_ name",
+                        "value": "bayyryyeva"
+                    },
+                    {
+                        "name": "role",
+                        "value": "boss"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "file",
+                        "value": "/Users/macbookpro/Downloads/images (1).jpeg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "568df802-f4ee-4d85-bbbb-44d8fef767bb",
+            "colId": "28ffa0ed-8344-48da-a1b6-5b39af0f9a50",
+            "containerId": "",
+            "name": "get users",
+            "url": "localhost:3000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-09T14:54:16.950Z",
+            "modified": "2024-04-09T14:54:33.260Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "476585c8-be81-4846-96cf-adf7699ccec5",
+            "colId": "28ffa0ed-8344-48da-a1b6-5b39af0f9a50",
+            "containerId": "",
+            "name": "file",
+            "url": "localhost:3000/1712681423292-images (1).jpeg",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-09T15:02:44.587Z",
+            "modified": "2024-04-09T16:51:14.347Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fa1aa4ae-dd4f-4ae9-90d9-3db004c8bbf5",
+            "colId": "28ffa0ed-8344-48da-a1b6-5b39af0f9a50",
+            "containerId": "",
+            "name": "update status",
+            "url": "localhost:3000/update",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-09T15:42:37.717Z",
+            "modified": "2024-04-09T16:54:17.161Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"main_id\":\"864\",\n  \"time\":\"dfiiig-----h\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b15ad2d-db6d-4c21-acf3-948fcd5a83fe",
+            "colId": "28ffa0ed-8344-48da-a1b6-5b39af0f9a50",
+            "containerId": "",
+            "name": "delete user",
+            "url": "localhost:3000/delete/864",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-09T16:24:19.361Z",
+            "modified": "2024-04-11T12:13:03.417Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
